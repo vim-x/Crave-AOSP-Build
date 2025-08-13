@@ -40,5 +40,5 @@ bash kernel/xiaomi/sm8350/kernelsetup.sh
 git clone https://github.com/PixelOS-AOSP/android_hardware_xiaomi.git -b sixteen hardware/xiaomi
 
 . build/envsetup.sh
-lunch aosp_renoir-bp1a-user
+lunch aosp_renoir-bp2a-user
 mka bacon
