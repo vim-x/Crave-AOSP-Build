@@ -5,7 +5,7 @@
 rm -rf .repo/local_manifests
 
 # Repo init
-repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b sixteen --git-lfs
 
 rm -rf prebuilts/clang/host/linux-x86
 
