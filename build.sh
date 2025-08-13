@@ -37,7 +37,7 @@ chmod +x kernel/xiaomi/sm8350/kernelsetup.sh
 bash kernel/xiaomi/sm8350/kernelsetup.sh
 
 # Hardware
-git clone https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b bka hardware/xiaomi
+git clone https://github.com/PixelOS-AOSP/android_hardware_xiaomi.git -b sixteen hardware/xiaomi
 
 . build/envsetup.sh
 lunch lineage_renoir-user && m evolution
