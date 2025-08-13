@@ -1,6 +1,6 @@
 # СКРИПТ СПИЗДЖЕН У WANNQ ПОТОМУЧТО Я НЕ УМЕЮ ПРОГРАМИРУВАТЬ 
-# ЧТО ТАКОЕ ТЕРМИНАЛ И LINUX
-# VDA SERVER PRICE MOMENT
+# ЧТО ТАКОЕ ТЕРМИНАЛ И LINUX?
+# VDS SERVER PRICE MOMENT
 
 rm -rf .repo/local_manifests
 
