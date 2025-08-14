@@ -40,5 +40,4 @@ bash kernel/xiaomi/sm8350/kernelsetup.sh
 git clone https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b bka hardware/xiaomi
 
 . build/envsetup.sh
-lunch aosp_renoir-bp2a-user
-mka bacon
+lunch lineage_renoir-user && m evolution
