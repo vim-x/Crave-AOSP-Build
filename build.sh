@@ -20,7 +20,7 @@ rm -rf kernel/xiaomi/sm8350
 rm -rf hardware/xiaomi
 
 # Device configuration
-git clone https://github.com/vim-x/android_device_xiaomi_renoir.git -b EvoX device/xiaomi/renoir
+git clone https://github.com/vim-x/android_device_xiaomi_renoir.git -b lineage-23.0 device/xiaomi/renoir
 
 # Common deivce tree
 git clone https://github.com/vim-x/android_device_xiaomi_sm8350-common.git -b lineage-23.0 device/xiaomi/sm8350-common
