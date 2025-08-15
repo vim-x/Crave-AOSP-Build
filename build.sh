@@ -5,7 +5,7 @@
 rm -rf .repo/local_manifests
 
 # Repo init
-repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
+repo init -u https://github.com/VoltageOS/manifest.git -b 16 --git-lfs
 
 rm -rf prebuilts/clang/host/linux-x86
 
@@ -40,4 +40,4 @@ bash kernel/xiaomi/sm8350/kernelsetup.sh
 git clone https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b bka hardware/xiaomi
 
 . build/envsetup.sh
-lunch lineage_renoir-bp2a-user && m evolution
+brunch renoir
